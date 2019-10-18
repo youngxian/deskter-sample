@@ -1,0 +1,214 @@
+:root {
+    --midnight: #010133;
+    --light-royal-blue: #3939f8;
+    --white: #ffffff;
+    --aqua-green: #19d19b;
+}
+
+html,
+p {
+    margin: 0;
+    border: 0;
+}
+
+header {
+    height: 500px;
+    position: relative;
+}
+
+.nav-item .nav-link {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nav-item .active {
+    color: var(--aqua-green);
+    border: 2px solid var(--aqua-green);
+    border-radius: 50px;
+}
+
+.estimate-heading {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.estimate-heading h1 {
+    text-transform: uppercase;
+    color: var(--light-royal-blue);
+    font-size: 40px;
+}
+
+.estimate-heading p {
+    font-family: Gelion;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: 0.24px;
+    text-align: center;
+    color: #020234;
+}
+
+.chat-btn {
+    background-color: var(--aqua-green);
+    padding: 18px;
+    border-radius: 50px;
+}
+
+.chat-btn img {
+    width: 20px;
+}
+
+.main-heading {
+    margin: 50px 0px;
+}
+
+.main-heading h6 {
+    color: var(--midnight);
+    font-size: 16px;
+    line-height: 17.5px;
+    letter-spacing: 0.32px;
+}
+
+.development-components-body {
+    border: 1px var(--light-royal-blue) solid;
+    border-radius: 10px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    padding-top: 50px;
+}
+
+.development-components-body img {
+    width: 40px;
+    height: 50px;
+    align-items: center;
+}
+
+.development-components-body p {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.development-components-body input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 10px;
+}
+
+.development-components-body label {
+    padding: 0;
+    height: 80px;
+}
+
+.form-group input {
+    border: none;
+    border-bottom: 1px solid var(--light-royal-blue);
+    border-radius: 0;
+}
+
+.form-group input::placeholder {
+    color: var(--light-royal-blue);
+    font-size: 14px;
+    line-height: 2px;
+}
+
+
+/* OUR SERVICE STYLING */
+
+.our-service-mainbody {
+    margin-bottom: 100px;
+}
+
+.our-service-heading {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.our-service-heading h4 {
+    font-size: 30px;
+    color: var(--light-royal-blue);
+    letter-spacing: 2px;
+}
+
+.our-service-heading p {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.our-serv {
+    font-size: 14px;
+    border-color: var(--light-royal-blue);
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    padding: 50px 0px;
+}
+
+.our-inno,
+.buss-plan {
+    font-size: 14px;
+    border-color: var(--light-royal-blue);
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    padding: 50px 0px;
+}
+
+.pitch-serv {
+    font-size: 14px;
+    border-color: var(--light-royal-blue);
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    border-radius: 0px 20px 0px 0px;
+    padding: 50px 0px;
+}
+
+.serv:hover {
+    background-color: var(--light-royal-blue);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.innovation-btn {
+    background-color: #E9E9FB;
+    margin: 10px 90px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.innovation-btn>img {
+    width: 30px;
+    height: 30px;
+}
+
+.feasi-serv {
+    font-size: 14px;
+    border-color: var(--light-royal-blue);
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    padding: 50px 0px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+
+/* FOOTER STYLING */
+
+.footer {
+    background-color: var(--midnight);
+}
+
+.footer-logo img {
+    width: 70%;
+}
+
+.footer-section {
+    font-size: 12px;
+    padding: 20px 0px;
+}
