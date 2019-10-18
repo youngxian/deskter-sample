@@ -192,7 +192,7 @@ header {
     font-size: 14px;
     border-color: var(--light-royal-blue);
     border-style: solid;
-    border-width: 1px 1px 0px 0px;
+    border-width: 1px 1px 1px 0px;
     padding: 50px 0px;
     border-radius: 0px 0px 20px 0px;
 }
@@ -211,4 +211,20 @@ header {
 .footer-section {
     font-size: 12px;
     padding: 20px 0px;
+}
+
+
+/* ABOUT US */
+
+.about-header {
+    background-image: url(../assets/Mask\ Group\ 7@3x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-heading {
+    background-image: url(../assets/Group\ 6502@2x.png);
+    height: 500px;
+    background-position: right;
+    background-repeat: no-repeat;
 }
