@@ -64,6 +64,10 @@ header {
     border-radius: 50px;
 }
 
+.chat-btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .chat-btn img {
     width: 20px;
 }
@@ -222,6 +226,127 @@ header {
 }
 
 
+/* OUR SERVICE TECHNOLOGY PAGE */
+
+.add-padding {
+    padding: 50px;
+}
+
+.our-service-content p {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.our-service-content>button {
+    background-color: #E6FAF4;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.our-service-individual {
+    margin-top: 60px;
+}
+
+.our-service-individual h3 {
+    font-size: 30px;
+    color: var(--aqua-green);
+}
+
+.our-service-individual p {
+    font-size: 12px;
+    line-height: 2;
+}
+
+.add-boreder {
+    border-color: var(--aqua-green);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+.add-border-left {
+    border-color: var(--aqua-green);
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+}
+
+.top-left-border {
+    border-color: var(--aqua-green);
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+}
+
+.top-border {
+    border-color: var(--aqua-green);
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+}
+
+.our-service-content>button>img {
+    width: 30px;
+    height: 35px;
+}
+
+.our-service-table {
+    margin: 70px 0px;
+}
+
+.our-serv-hover:hover {
+    background-color: var(--aqua-green);
+    color: white;
+    cursor: pointer;
+}
+
+.our-serv-hover-last:hover {
+    background-color: var(--aqua-green);
+    color: white;
+    border-radius: 0 0 20px 0;
+    cursor: pointer;
+}
+
+.our-serv-hover-coner:hover {
+    background-color: var(--aqua-green);
+    color: white;
+    border-radius: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.our-serv-hover-first:hover {
+    background-color: var(--aqua-green);
+    color: white;
+    border-radius: 20px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.our-serv-hover-second:hover {
+    background-color: var(--aqua-green);
+    color: white;
+    border-radius: 0px 0px 0px 20px;
+    cursor: pointer;
+}
+
+
+/* MODAL FOR OUR SERVICE TECHNOLOGY */
+
+.modal-body-title {
+    color: var(--aqua-green);
+    font-size: 24px;
+    line-height: 2;
+}
+
+.modal-body-content {
+    font-size: 13px;
+    color: #707070;
+}
+
+.modal-img {
+    background-color: #E6FAF4;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+
 /* ABOUT US */
 
 .about-header {
@@ -231,12 +356,14 @@ header {
 }
 
 .about-heading {
-    background-image: url(../assets/Group\ 6502@2x.png);
-    height: 500px;
-    background-position: right;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin: auto;
+    padding: 50px 0;
+}
+
+.about-conte p {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: 0.22px;
 }
 
 .about-heading .about-company-text {
@@ -333,5 +460,74 @@ MOBILE VIEW STYLING FOR ALL PAGES
     }
     .navbar-desktop {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        display: contents;
+    }
+    .navbar-desktop {
+        display: none;
+    }
+    .container {
+        padding: 0 30px;
+    }
+    /* OUR SERVICE TECHNOLOGY PAGE */
+    .add-border-left {
+        border-color: var(--aqua-green);
+        border-style: solid;
+        border-width: 1px 0px 0px 0px;
+    }
+    .top-left-border {
+        border-color: var(--aqua-green);
+        border-style: solid;
+        border-width: 1px 0px 0px 0px;
+    }
+    .top-border {
+        border-color: var(--aqua-green);
+        border-style: solid;
+        border-width: 1px 0px 0px 0px;
+    }
+    .our-serv-hover:hover {
+        background-color: var(--aqua-green);
+        color: white;
+        cursor: pointer;
+    }
+    .our-serv-hover-last:hover {
+        background-color: var(--aqua-green);
+        color: white;
+        border-radius: 0px 0px 20px 20px;
+        cursor: pointer;
+    }
+    .our-serv-hover-coner:hover {
+        border-radius: 0px;
+    }
+    .our-serv-hover-first:hover {
+        background-color: var(--aqua-green);
+        color: white;
+        border-radius: 20px 20px 0px 0px;
+        cursor: pointer;
+    }
+    .our-serv-hover-second:hover {
+        background-color: var(--aqua-green);
+        color: white;
+        border-radius: 0px;
+        cursor: pointer;
+    }
+    /* GENERAL FOOTER STYLING MOBILE */
+    .footer-right {
+        font-size: 10px;
+    }
+    /* ABOUT US STYLING MOBILE   */
+    .deskter-word h1 {
+        font-size: 52px;
+        margin: 0;
+    }
+    .about-value-heading {
+        text-align: center;
+    }
+    .about-value-heading h4 {
+        line-height: 1.5;
     }
 }

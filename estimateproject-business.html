@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header class="header  bg-success">
+    <header class="about-header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src="./assets/asset-2-300-x.png" alt=""></a>
@@ -27,14 +27,18 @@
                         <li class="nav-item active mr-lg-4">
                             <a class="nav-link" href="about.html">About us</a>
                         </li>
-                        <li class="nav-item  mr-lg-4">
+                        <li class="nav-item  mr-lg-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <a class="nav-link" href="ourservice.html">Service</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Business Development</a>
+                                <a class="dropdown-item" href="#">Technology Development</a>
+                            </div>
                         </li>
                         <li class="nav-item  mr-lg-4">
                             <a class="nav-link" href="#">Blog</a>
                         </li>
                     </ul>
-                    <a class="navbar-desktop" href="#"><img src="./assets/asset-2-300-x@2x.png" alt="" class="w-100"></a>
+                    <a class="navbar-desktop" href="about.html"><img src="./assets/asset-2-300-x@2x.png" alt="" class="w-100"></a>
                     <ul class="navbar-nav w-100 justify-content-end">
                         <li class="nav-item  ml-lg-4">
                             <a class="nav-link" href="#">Directory</a>
@@ -42,9 +46,23 @@
                         <li class="nav-item  ml-lg-4">
                             <a class="nav-link" href="#">Contact us</a>
                         </li>
-                        <li class="nav-item  ml-lg-4">
-                            <a class="nav-link" href="estimateproject.html">Estimate Project</a>
+                        <div class="nav-item ml-lg-4 dropdown">
+                            <a class="dropbtn">Dropdown
+                                <i class="fa fa-caret-down"></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                        <!-- <li class="nav-item ml-lg-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link" href="#">Estimate Project</a>
                         </li>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="estimateproject-business.html">Business</a>
+                            <a class="dropdown-item" href="estimateproject-individual.html">Individual</a>
+                        </div> -->
                     </ul>
                 </div>
                 <!-- <a class="navbar-brand" href="#">Navbar</a> -->
