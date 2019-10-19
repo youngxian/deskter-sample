@@ -21,6 +21,13 @@ header {
     font-weight: bold;
 }
 
+
+/* NAVIGATION STYLING */
+
+.navbar-brand {
+    display: none;
+}
+
 .nav-item .active {
     color: var(--aqua-green);
     border: 2px solid var(--aqua-green);
@@ -36,15 +43,16 @@ header {
     text-transform: uppercase;
     color: var(--light-royal-blue);
     font-size: 40px;
+    font-weight: 600;
 }
 
 .estimate-heading p {
-    font-family: Gelion;
+    /* font-family: Gelion-Regular; */
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.46;
+    line-height: 2;
     letter-spacing: 0.24px;
     text-align: center;
     color: #020234;
@@ -227,4 +235,103 @@ header {
     height: 500px;
     background-position: right;
     background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+}
+
+.about-heading .about-company-text {
+    font-size: 24x;
+    letter-spacing: 1px;
+    line-height: 2;
+    margin-top: 15px;
+}
+
+.about-heading .about-company-heading {
+    color: var(--aqua-green);
+    font-size: 22.5px;
+    letter-spacing: 1px;
+}
+
+.about-value {
+    background-image: url(../assets/Group\ 7494@2x.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.about-value-heading {
+    text-align: right;
+    padding: 80px 0px;
+}
+
+.about-value-heading p {
+    font-size: 12px;
+    line-height: 2;
+}
+
+.about-value-heading h4 {
+    color: var(--light-royal-blue);
+    font-size: 21px;
+    line-height: 2;
+}
+
+.our-process-img {
+    margin-top: 50px;
+}
+
+.our-process-text {
+    text-align: left;
+    padding: 60px 0px;
+}
+
+.our-process-text h3 {
+    font-size: 24px;
+}
+
+.our-process-text h4 {
+    font-size: 22.5px;
+    color: var(--aqua-green);
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.our-process-text p {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.deskter-word h1 {
+    font-size: 152px;
+    color: #F5F5F6;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin-bottom: -30px;
+}
+
+
+/* 
+
+MOBILE VIEW STYLING FOR ALL PAGES 
+
+-NAV-LOGO
+-ABOUT-PAGE
+-OUR-SERVICE-PAGE
+||||||||||||||||||||||| |||||||||
+^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^
+*/
+
+
+/* Iphone screen */
+
+
+/* Medium devices (landscape tablets, 991px and up) */
+
+@media only screen and (max-width: 991px) {
+    .navbar-brand {
+        display: contents;
+    }
+    .navbar-desktop {
+        display: none;
+    }
 }
