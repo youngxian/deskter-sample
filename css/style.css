@@ -21,6 +21,28 @@ header {
     font-weight: bold;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--aqua-green);
+}
+
+.navbar-light .navbar-nav .active {
+    color: var(--aqua-green);
+}
+
+.dropdown-menu a {
+    font-size: 12px;
+}
+
+.estimate-nav {
+    color: var(--aqua-green);
+}
+
+.estimate-nav:hover {
+    border: 2px solid var(--aqua-green);
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
 
 /* NAVIGATION STYLING */
 
@@ -95,6 +117,11 @@ header {
     padding-top: 50px;
 }
 
+.development-components-body:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
 .development-components-body img {
     width: 40px;
     height: 50px;
@@ -132,6 +159,24 @@ header {
     line-height: 2px;
 }
 
+.form-email {
+    color: var(--light-royal-blue);
+}
+
+.image-slider .slider-btn {
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.image-slider .slider-btn-last {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 100%;
+}
+
 
 /* OUR SERVICE STYLING */
 
@@ -159,16 +204,56 @@ header {
     font-size: 14px;
     border-color: var(--light-royal-blue);
     border-style: solid;
-    border-width: 1px 1px 0px 0px;
+    border-width: 0px 1px 0px 0px;
+    padding: 50px 0px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.our-comp {
+    font-size: 14px;
+    border-color: var(--light-royal-blue);
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
     padding: 50px 0px;
 }
 
-.our-inno,
-.buss-plan {
+.our-proposal {
     font-size: 14px;
     border-color: var(--light-royal-blue);
     border-style: solid;
     border-width: 1px 1px 0px 0px;
+    padding: 50px 0px;
+}
+
+.boder {
+    border-color: var(--light-royal-blue);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+.our-market {
+    font-size: 14px;
+    border-color: var(--light-royal-blue);
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    padding: 50px 0px;
+    border-radius: 0px 0px 0px 20px;
+}
+
+.our-inno {
+    font-size: 14px;
+    border-color: var(--light-royal-blue);
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    padding: 50px 0px;
+}
+
+.buss-plan {
+    font-size: 14px;
+    border-color: var(--light-royal-blue);
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
     padding: 50px 0px;
 }
 
@@ -176,7 +261,7 @@ header {
     font-size: 14px;
     border-color: var(--light-royal-blue);
     border-style: solid;
-    border-width: 1px 1px 0px 0px;
+    border-width: 0px;
     border-radius: 0px 20px 0px 0px;
     padding: 50px 0px;
 }
@@ -186,13 +271,14 @@ header {
     color: white;
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .innovation-btn {
     background-color: #E9E9FB;
-    margin: 10px 90px;
     border-radius: 50%;
-    padding: 30px;
+    padding: 25px;
+    margin-bottom: 10px;
 }
 
 .innovation-btn>img {
@@ -204,7 +290,7 @@ header {
     font-size: 14px;
     border-color: var(--light-royal-blue);
     border-style: solid;
-    border-width: 1px 1px 1px 0px;
+    border-width: 1px 0px 0px 0px;
     padding: 50px 0px;
     border-radius: 0px 0px 20px 0px;
 }
@@ -324,6 +410,23 @@ header {
     color: white;
     border-radius: 0px 0px 0px 20px;
     cursor: pointer;
+}
+
+.option-pick,
+.privacy-text {
+    font-size: 12px;
+}
+
+.estimate-btn {
+    background-color: var(--aqua-green);
+    border: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.estimate-btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: var(--aqua-green);
 }
 
 
@@ -461,6 +564,37 @@ MOBILE VIEW STYLING FOR ALL PAGES
     .navbar-desktop {
         display: none;
     }
+    .estimate-nav {
+        border: 0px;
+        border-radius: 0px;
+        padding: 0px;
+    }
+    /* OUR-SERVICE BUSINESS */
+    .buss-plan {
+        font-size: 14px;
+        border-color: var(--light-royal-blue);
+        border-style: solid;
+        border-width: 0px 0px 1px 0px;
+        padding: 50px 0px;
+        border-radius: 0px 20px 0px 0px;
+    }
+    .our-proposal {
+        font-size: 14px;
+        border-color: var(--light-royal-blue);
+        border-style: solid;
+        border-width: 1px 0px 0px 0px;
+        padding: 50px 0px;
+    }
+    .our-serv {
+        border-width: 0px 1px 1px 0px;
+        border-radius: 20px 0px 0px 0px;
+    }
+    .pitch-serv {
+        border-radius: 0px;
+    }
+    .our-inno {
+        border-radius: 0px 0px 0px 20px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -468,6 +602,14 @@ MOBILE VIEW STYLING FOR ALL PAGES
         display: contents;
     }
     .navbar-desktop {
+        display: none;
+    }
+    .estimate-nav {
+        border: 0px;
+        border-radius: 0px;
+        padding: 0px;
+    }
+    .image-slider {
         display: none;
     }
     .container {
@@ -519,6 +661,9 @@ MOBILE VIEW STYLING FOR ALL PAGES
     .footer-right {
         font-size: 10px;
     }
+    .footer-logo img {
+        width: 70px;
+    }
     /* ABOUT US STYLING MOBILE   */
     .deskter-word h1 {
         font-size: 52px;
@@ -529,5 +674,24 @@ MOBILE VIEW STYLING FOR ALL PAGES
     }
     .about-value-heading h4 {
         line-height: 1.5;
+    }
+    /* OUR SERVICE BUSINESS PAGE MOBILE */
+    .our-serv {
+        border-width: 0px 0px 1px 0px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .buss-plan {
+        border-radius: 0px;
+    }
+    .our-comp {
+        border-width: 0px 0px 1px 0px;
+    }
+    .our-inno,
+    .our-market {
+        border-radius: 0px;
+        border-right: 0px;
+    }
+    .feasi-serv {
+        border-radius: 0px 0px 20px 20px;
     }
 }

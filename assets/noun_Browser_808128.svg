@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="103" viewBox="0 0 103 103">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#3939f8;stroke-miterlimit:10;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="noun_Browser_808128" transform="translate(-.5 -.5)">
+        <g id="Group_5466" data-name="Group 5466" transform="translate(2 2)">
+            <path id="Rectangle_104" d="M0 0h100v100H0z" class="cls-1" data-name="Rectangle 104"/>
+            <path id="Line_26" d="M0 0h100" class="cls-1" data-name="Line 26" transform="translate(0 17)"/>
+            <path id="Line_27" d="M4 0H0" class="cls-1" data-name="Line 27" transform="translate(89 9)"/>
+            <path id="Line_28" d="M4 0H0" class="cls-1" data-name="Line 28" transform="translate(80 9)"/>
+            <path id="Line_29" d="M5 0H0" class="cls-1" data-name="Line 29" transform="translate(71 9)"/>
+            <path id="Rectangle_105" d="M0 0h82v15H0z" class="cls-1" data-name="Rectangle 105" transform="translate(9 26)"/>
+            <path id="Rectangle_106" d="M0 0h21v41H0z" class="cls-1" data-name="Rectangle 106" transform="translate(9 50)"/>
+            <path id="Rectangle_107" d="M0 0h22v41H0z" class="cls-1" data-name="Rectangle 107" transform="translate(39 50)"/>
+            <path id="Rectangle_108" d="M0 0h22v41H0z" class="cls-1" data-name="Rectangle 108" transform="translate(69 50)"/>
+        </g>
+    </g>
+</svg>
